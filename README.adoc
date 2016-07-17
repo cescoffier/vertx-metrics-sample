@@ -4,7 +4,7 @@ This project is a sample showing how to enable JMX metrics in a Vert.x applicati
 
 Once launched, you can connect to the Platform Mbean Server and get Vert.x metrics in the `vertx` domain:
 
-image::doc/jmx.png
+image::doc/jmx.png[]
 
 
 ## Build the project
