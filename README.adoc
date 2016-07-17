@@ -1,0 +1,28 @@
+# Vert.x Metrics Sample
+
+This project is a sample showing how to enable JMX metrics in a Vert.x application.
+
+Once launched, you can connect to the Platform Mbean Server and get Vert.x metrics in the `vertx` domain:
+
+image::doc/jmx.png
+
+
+## Build the project
+
+----
+mvn clean package
+----
+
+## Run the project
+
+In Maven:
+
+----
+mvn exec:exec@run
+----
+
+In CLI:
+
+----
+java -jar target/vertx-metrics-sample-1.0.0-SNAPSHOT-fat.jar
+----
