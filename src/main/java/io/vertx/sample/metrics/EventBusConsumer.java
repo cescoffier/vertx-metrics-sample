@@ -4,9 +4,6 @@ import io.vertx.core.AbstractVerticle;
 
 import java.util.Random;
 
-/**
- * @author <a href="http://escoffier.me">Clement Escoffier</a>
- */
 public class EventBusConsumer extends AbstractVerticle {
 
   private Random random = new Random();

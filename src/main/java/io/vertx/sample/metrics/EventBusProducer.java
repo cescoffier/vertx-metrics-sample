@@ -2,9 +2,6 @@ package io.vertx.sample.metrics;
 
 import io.vertx.core.AbstractVerticle;
 
-/**
- * @author <a href="http://escoffier.me">Clement Escoffier</a>
- */
 public class EventBusProducer extends AbstractVerticle {
 
   @Override

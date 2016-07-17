@@ -3,9 +3,6 @@ package io.vertx.sample.metrics;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.http.HttpClient;
 
-/**
- * @author <a href="http://escoffier.me">Clement Escoffier</a>
- */
 public class HttpClientVerticle extends AbstractVerticle {
 
   private HttpClient client;
